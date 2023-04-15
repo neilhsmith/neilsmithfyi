@@ -1,0 +1,16 @@
+---
+export interface Props {
+  href: string
+  type: "primary" | "secondary"
+}
+
+const { href, type } = Astro.props
+---
+
+<a
+  href={href}
+  class={`rounded-3xl border-2 px-10 py-2 text-lg ${
+    type === "primary" ? "border-brown bg-brown text-beige" : ""
+  } ${type === "secondary" ? "border-brown bg-beige text-brown" : ""}`}
+  ><slot /></a
+>
