@@ -13,6 +13,7 @@
     "@astrojs/tailwind": "^3.1.1",
     "@fontsource/lexend-deca": "^4.5.14",
     "@fontsource/rubik": "^4.5.14",
+    "@fontsource/smooch-sans": "^4.5.9",
     "astro": "^2.3.0",
     "tailwindcss": "^3.3.1"
   }

@@ -1,5 +1,6 @@
 ---
-import "@fontsource/rubik"
+import "@fontsource/smooch-sans/400.css"
+import "@fontsource/smooch-sans/900.css"
 import Hero from "../components/Hero.astro"
 ---
 
@@ -14,9 +15,21 @@ import Hero from "../components/Hero.astro"
   </head>
   <body class="bg-beige h-screen">
     <a href="#main" class="sr-only focus:not-sr-only">Skip to main content</a>
+    <div class="fixed w-screen bg-beige z-30">
+      <div class="container mx-auto py-4 flex items-center gap-12">
+        <img class="" src="/logo-square.svg" />
+        <nav class="font-heading text-3xl uppercase">
+          <ul class="flex items-center gap-16">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
     <Hero />
     <main id="main" class="relative bg-brown">
-      <div class="bg-border bg-repeat-x absolute w-full h-10 -top-6"></div>
       <p class="text-4xl">idk asdfasdf asdf asdf sadf asdfsadf sadfsadf</p>
       <p class="text-4xl">idk asdfasdf asdf asdf sadf asdfsadf sadfsadf</p>
       <p class="text-4xl">idk asdfasdf asdf asdf sadf asdfsadf sadfsadf</p>

@@ -13,7 +13,7 @@ module.exports = {
         brown: "#211805",
       },
       fontFamily: {
-        heading: '"Lexend Deca", sans-serif',
+        heading: '"Smooch Sans", sans-serif',
       },
     },
   },
