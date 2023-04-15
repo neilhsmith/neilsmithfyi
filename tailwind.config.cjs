@@ -13,7 +13,7 @@ module.exports = {
         brown: "#211805",
       },
       fontFamily: {
-        heading: '"Smooch Sans", sans-serif',
+        standout: '"Smooch Sans", sans-serif',
       },
     },
   },
