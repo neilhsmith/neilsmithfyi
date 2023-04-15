@@ -4,16 +4,16 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-portrait-bg": "url('/color-splotch-01.png')",
-        border: "url('/border2.svg')",
+        "hero-border": "url('/hero-border.svg')",
+        "hero-bg-gradient":
+          "radial-gradient(circle at 62%, hsla(41, 74%, 7%, 1), hsla(0, 0%, 70%, 0) 30%)",
       },
       colors: {
         beige: "#E9E8DC",
         brown: "#211805",
       },
       fontFamily: {
-        heading:
-          '"Lalezar", Bahnschrift, "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif',
+        heading: '"Lexend Deca", sans-serif',
       },
     },
   },

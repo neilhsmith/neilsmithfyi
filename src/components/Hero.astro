@@ -1,15 +1,71 @@
 ---
 ---
 
-<div class="text-brown relative lg:h-[60vh] md:container md:mx-auto">
+<header class="relative">
+  <div class="container mx-auto py-4 flex items-center gap-4">
+    <img class="" src="/logo-square.svg" />
+    <nav class="font-heading text-lg">
+      <ul class="flex items-center gap-16">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div
+    class="text-brown flex flex-col md:flex-row md:container md:mx-auto lg:aspect-video after:absolute after:left-0 after:bottom-0 after:w-full after:bg-hero-border after:h-[30px] after:bg-repeat-x xl:px-28"
+  >
+    <div
+      class="flex flex-col gap-16 h-full justify-center py-24 lg:w-[50%] xl:w-[42%] 2xl:w-[38%]"
+    >
+      <div
+        class="relative flex flex-col-reverse after:absolute after:h-[3px] after:w-20 after:bg-brown after:-bottom-8"
+      >
+        <h1
+          class="uppercase text-8xl font-extrabold font-heading leading-none tracking-tighter"
+        >
+          Neil Smith
+        </h1>
+        <span
+          class="uppercase text-2xl font-semibold font-heading leading-none tracking-normal"
+          >Web Engineer</span
+        >
+      </div>
+      <p class="text-lg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nis I vitae
+        inventore maiores nesciunt. Lorem ipsum dolor sit amet. Nisi vitae
+        inventore maiores nesciunt
+      </p>
+      <div class="flex gap-8">
+        <a href="#">A button</a>
+        <a href="#">A button</a>
+      </div>
+    </div>
+    <div class="relative lg:w-[50%] xl:w-[58%] 2xl:w-[62%]">
+      <img
+        class="hidden md:block absolute bottom-0 right-0"
+        src="/portrait-cartoon-02-849.png"
+      />
+    </div>
+  </div>
+</header>
+
+<!--
+  <div
+  class="text-brown relative lg:h-[60vh] md:container md:mx-auto"
+>
   <div class="h-full flex flex-col justify-end gap-12 py-16 lg:w-[50%]">
     <div
       class="relative flex flex-col-reverse mb-12 after:absolute after:bg-brown after:h-[3px] after:w-24 after:left-0 after:-bottom-12"
     >
-      <h1 class="uppercase text-8xl font-extrabold font-heading leading-none">
+      <h1
+        class="uppercase text-8xl font-extrabold font-heading leading-none tracking-tighter"
+      >
         Neil Smith
       </h1>
-      <span class="text-3xl font-semibold font-heading leading-none"
+      <span
+        class="text-3xl font-semibold font-heading leading-none tracking-tight"
         >Web Engineer</span
       >
     </div>
@@ -27,4 +83,4 @@
     class="hidden lg:block absolute max-h-[80vh] z-50 top-0 left-[34%] xl:max-h-[86vh]"
     src="/hero-splash-01.png"
   />
-</div>
+</div> -->
